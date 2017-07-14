@@ -1,4 +1,5 @@
 #代码
+
     (function(){
         $.MsgBox={
             Alert:function(title,msg){
@@ -30,7 +31,6 @@
             //生成Css
             GenerateCss();
         }
-
         //生成Css
         var GenerateCss=function(){
             $("#mb_box").css({

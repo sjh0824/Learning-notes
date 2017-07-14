@@ -1,4 +1,5 @@
 #《优酷视频自动播放代码》
+
     更换地址即可
     自动播放 添加属性 flashvars="isAutoPlay=true"
     禁止自动播放  flashvars="isAutoPlay=false"
@@ -8,6 +9,7 @@
     </EMBED>
     代码中width=600 height=450 里面的数字按需要改动即可
 #酷6视频自动播放：
+
     （自动播放代码&auto=1）
     禁止自动播放代码&auto=2
     <embed src="http://player.ku6.com/refer/nvGjdBHTKUWXgnNF/v.swf&auto=1"
@@ -18,6 +20,7 @@
 
 
 #腾讯视频自动播放：
+
     （自动播放代码?auto=1&vid=v00113cmpgm）
     禁止自动播放代码?auto=2&vid=v00113cmpgm
     <embedsrc="http://static.video.qq.com/TPout.swf?auto=1&vid=v00113cmpgm"quality="high"width="460"height="372"align="middle"allowScriptAccess="sameDomain"allowFullscreen="true"type="application/x-shockwave-flash"></embed>
