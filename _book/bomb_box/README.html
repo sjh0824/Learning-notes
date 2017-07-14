@@ -1,0 +1,464 @@
+<!DOCTYPE HTML>
+<html lang="en-US" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <title>Bomb box自定义弹框 | gitbook</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 1.0.3">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    
+    <link rel="next" href="../display_hidden/README.html" />
+    
+    
+    <link rel="prev" href="../website/README.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+<link rel="stylesheet" href="../gitbook/style.css">
+
+
+        
+    <div class="book"  data-level="4" data-basepath=".." data-revision="1500003758536">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Type to search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+    	
+    	
+    	
+
+        
+
+        
+    
+        
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                         Introduction
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="1" data-path="php/README.html">
+            
+                
+                    <a href="../php/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                         PHP学习笔记
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="2" data-path="css/README.html">
+            
+                
+                    <a href="../css/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                         CSS重置
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="3" data-path="website/README.html">
+            
+                
+                    <a href="../website/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                         website学习网站
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter active" data-level="4" data-path="bomb_box/README.html">
+            
+                
+                    <a href="../bomb_box/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                         Bomb box自定义弹框
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="5" data-path="display_hidden/README.html">
+            
+                
+                    <a href="../display_hidden/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                         display hidden显示与隐藏
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="6" data-path="video/README.html">
+            
+                
+                    <a href="../video/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                         video视频自动播放
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="7" data-path="font_icon/README.html">
+            
+                
+                    <a href="../font_icon/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                         font icon字体图标
+                    </a>
+                
+            
+            
+        </li>
+    
+        
+        <li class="chapter " data-level="8" data-path="vue/README.html">
+            
+                
+                    <a href="../vue/README.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>8.</b>
+                        
+                         Vue 学习
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank" class="gitbook-link">Published using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right -->
+    
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right twitter-sharing-link sharing-link" data-sharing="twitter" aria-label="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >gitbook</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-gitbook_2404">
+                    
+                        <h1 id="">代码</h1>
+<pre><code>(function(){
+    $.MsgBox={
+        Alert:function(title,msg){
+            GenerateHtml(&quot;alert&quot;,title,msg);
+            btnOk();//alert只是弹出消息，因此没必要用到回调函数callback
+            btnNo();
+        },
+        Confirm:function(title,msg,callback){
+            GenerateHtml(&quot;confirm&quot;,title,msg);
+            btnOk(callback);
+            btnNo();
+        }
+    }
+    //生成Html
+    varGenerateHtml=function(type,title,msg){
+    var_html=&quot;&quot;;
+    _html+=&#39;&lt;divid=&quot;mb_box&quot;&gt;&lt;/div&gt;&lt;divid=&quot;mb_con&quot;&gt;&lt;spanid=&quot;mb_tit&quot;&gt;&#39;+title+&#39;&lt;/span&gt;&#39;;
+    _html+=&#39;&lt;aid=&quot;mb_ico&quot;&gt;x&lt;/a&gt;&lt;divid=&quot;mb_msg&quot;&gt;&#39;+msg+&#39;&lt;/div&gt;&lt;divid=&quot;mb_btnbox&quot;&gt;&#39;;
+    if(type==&quot;alert&quot;){
+        _html+=&#39;&lt;inputid=&quot;mb_btn_ok&quot;type=&quot;button&quot;value=&quot;确定&quot;/&gt;&#39;;
+    }
+    if(type==&quot;confirm&quot;){
+        _html+=&#39;&lt;inputid=&quot;mb_btn_ok&quot;type=&quot;button&quot;value=&quot;确定&quot;/&gt;&#39;;
+        _html+=&#39;&lt;inputid=&quot;mb_btn_no&quot;type=&quot;button&quot;value=&quot;取消&quot;/&gt;&#39;;
+    }
+    _html+=&#39;&lt;/div&gt;&lt;/div&gt;&#39;;
+    //必须先将_html添加到body，再设置Css样式
+    $(&quot;body&quot;).append(_html);
+        //生成Css
+        GenerateCss();
+    }
+
+    //生成Css
+    var GenerateCss=function(){
+        $(&quot;#mb_box&quot;).css({
+            width:&#39;100%&#39;,
+            height:&#39;100%&#39;,
+            zIndex:&#39;99999&#39;,
+            position:&#39;fixed&#39;,
+            filter:&#39;Alpha(opacity=60)&#39;,
+            backgroundColor:&#39;black&#39;,
+            top:&#39;0&#39;,
+            left:&#39;0&#39;,
+            opacity:&#39;0.6&#39;
+        });
+        $(&quot;#mb_con&quot;).css({
+            zIndex:&#39;999999&#39;,
+            width:&#39;400px&#39;,
+            position:&#39;fixed&#39;,
+            backgroundColor:&#39;White&#39;,
+            borderRadius:&#39;15px&#39;
+        });
+        $(&quot;#mb_tit&quot;).css({
+            display:&#39;block&#39;,
+            fontSize:&#39;14px&#39;,
+            color:&#39;#444&#39;,
+            padding:&#39;10px 15px&#39;,
+            backgroundColor:&#39;#DDD&#39;,
+            borderRadius:&#39;15px 15px 0 0&#39;,
+            borderBottom:&#39;3px solid #009BFE&#39;,
+            fontWeight:&#39;bold&#39;,
+            textAlign:&quot;center&quot;
+        });
+        $(&quot;#mb_msg&quot;).css({
+            padding:&#39;20px&#39;,
+            lineHeight:&#39;20px&#39;,
+            borderBottom:&#39;1px dashed #DDD&#39;,
+            fontSize:&#39;13px&#39;,
+            textAlign:&quot;center&quot;
+        });
+        $(&quot;#mb_ico&quot;).css({
+            display:&#39;block&#39;,
+            position:&#39;absolute&#39;,
+            right:&#39;10px&#39;,
+            top:&#39;9px&#39;,
+            border:&#39;1px solid Gray&#39;,
+            width:&#39;18px&#39;,
+            height:&#39;18px&#39;,
+            textAlign:&#39;center&#39;,
+            lineHeight:&#39;16px&#39;,
+            cursor:&#39;pointer&#39;,
+            borderRadius:&#39;12px&#39;,
+            fontFamily:&#39;微软雅黑&#39;
+        });
+        $(&quot;#mb_btnbox&quot;).css({
+            margin:&#39;15px 0 10px 0&#39;,
+            textAlign:&#39;center&#39;
+        });
+        $(&quot;#mb_btn_ok,#mb_btn_no&quot;).css({
+            width:&#39;85px&#39;,
+            height:&#39;30px&#39;,
+            color:&#39;white&#39;,
+            border:&#39;none&#39;
+        });
+        $(&quot;#mb_btn_ok&quot;).css({
+            backgroundColor:&#39;#168bbb&#39;
+        });
+        $(&quot;#mb_btn_no&quot;).css({
+            backgroundColor:&#39;gray&#39;,
+            marginLeft:&#39;20px&#39;
+        });
+        //右上角关闭按钮hover样式
+        $(&quot;#mb_ico&quot;).hover(function(){
+            $(this).css({
+                backgroundColor:&#39;#3789DD&#39;,
+                color:&#39;White&#39;
+            });
+            },function(){
+                $(this).css({backgroundColor:&#39;#DDD&#39;,color:&#39;black&#39;});
+        });
+        var_widht=document.documentElement.clientWidth;//屏幕宽
+        var_height=document.documentElement.clientHeight;//屏幕高
+        varboxWidth=$(&quot;#mb_con&quot;).width();
+        varboxHeight=$(&quot;#mb_con&quot;).height();
+        //让提示框居中
+        $(&quot;#mb_con&quot;).css({
+            top:(_height-boxHeight)/2+&quot;px&quot;,
+            left:(_widht-boxWidth)/2+&quot;px&quot;
+        });
+    }
+    //确定按钮事件
+    varbtnOk=function(callback){
+        $(&quot;#mb_btn_ok&quot;).click(function(){
+            $(&quot;#mb_box,#mb_con&quot;).remove();
+            if(typeof(callback)==&#39;function&#39;){
+                callback();
+            }
+        });
+    }
+    //取消按钮事件
+    varbtnNo=function(){
+        $(&quot;#mb_btn_no,#mb_ico&quot;).click(function(){
+            $(&quot;#mb_box,#mb_con&quot;).remove();
+        });
+    }
+})();
+</code></pre><h1 id="">调用弹框</h1>
+<pre><code>$.MsgBox.Alert(&quot;温馨提示&quot;,&quot;操作失败，请联系客服！&quot;);
+</code></pre>
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../website/README.html" class="navigation navigation-prev " aria-label="Previous page: website学习网站"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../display_hidden/README.html" class="navigation navigation-next " aria-label="Next page: display hidden显示与隐藏"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
